@@ -1,0 +1,340 @@
+
+body {
+	width: 100%;
+	height: 100%;
+	color: #333;
+}
+
+.navbar {
+	background-color: #5b6169;
+	height: 100px;
+}
+
+#slidi {
+	height: 500px;
+	background: #7FD2F7;
+}	
+
+.photo-slider {
+	float: left;
+	margin-top: 64px;
+}
+
+.information-slider {
+	float: left;
+	margin-top: 140px;
+}
+
+.slider-zagolovok {
+	color: white;
+	font-weight: 500;
+}
+
+.slider-text {
+	font-size: 18px;
+	color: white;
+	opacity: 0.8;
+	font-weight: 400;
+	margin-top: 25px;
+}
+
+.button {
+	background-color: aqua;
+	margin-top: 20px;
+	width: 170px;
+	height: 40px;
+	color: white;
+	border: none;
+}
+
+.services {
+	margin-top: 40px;
+}
+
+.advantages{
+	width: 100%;
+	margin-top: 30px;
+}
+
+.services-cont{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.adv-cartochki {
+	margin-top: 30px;
+	height: 400px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.zagolovok {
+	font-weight: 500px;
+	font-size: 30px;
+}
+
+
+.block_zag-dva{
+
+	z-index: 2;
+	display: inline-block;
+	font-weight: 400px;
+	font-size: 25px;
+	margin: 0;
+	padding: 0 15px;
+	background-color: #d1d1d1;
+}
+.title-line-dva{
+	z-index: 1;
+	width: 100%;
+	height: 1px;
+	background: #000000;
+	position: relative;
+	top: -15px;
+}
+
+.adv-cartochki-img {
+	display: block;
+	margin-top: 20px;
+}
+
+.adv-cartochki-text{
+	width: 300px;
+	text-align: center;
+	margin-top: 5px;
+	font-size: 15px;
+}
+
+.adv-cartochki-zagolovo {
+	color: #3674ba;
+	font-weight: 700;
+	margin-top: 25px;
+}
+
+.about{
+	background-color: #d1d1d1;
+	height: 600px;
+	margin-top: 40px;
+}
+
+.about-con {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.about-items{
+	margin-top: 60px;
+	width: 100%;
+}
+
+
+.about-text{
+	height: 200px;
+
+}
+
+
+.form{
+
+	height: 200px;
+}
+
+.about-text-header{
+	font-size: 36px;
+	color: #7c7c7c;
+}
+
+.stats{
+	margin-top: 35px;
+	height: 180px;
+}
+
+.about-text-parahraph{
+	font-size: 14px;
+	color: #4e4e4e;
+	width: 90%;
+	font-weight: 500;
+}
+
+
+
+.karta{
+	background: url(../img/map.png);
+	background-size: cover;
+	height: 150px;
+
+}
+
+.stats_zagolovok{
+	font-size: 26px;
+	color: #3674ba;
+}
+
+.progress-container{
+	margin-top: 10px;
+	width: 100%;
+	height: 30px;
+}
+
+
+
+.html {
+	margin-top: 10px;
+	font-size: 14px;
+	padding-left: 20px;
+	padding-top: 4px;
+	padding-bottom: 5px;
+	color: white;
+	background-color: #3674ba;
+	width: 99%;
+}
+
+.css {
+	margin-top: 10px;
+	width: 90%;
+	font-size: 14px;
+	padding-left: 20px;
+	padding-top: 4px;
+	padding-bottom: 5px;
+  color: white; /* White text color */
+  background-color: #3674ba;
+}
+
+.photoshop {
+	margin-top: 10px;
+	width: 80%;
+	font-size: 14px;
+	padding-left: 20px;
+	padding-top: 4px;
+	padding-bottom: 5px;
+	color: white; /* White text color */
+	background-color: #3674ba;
+}
+
+.res {
+	margin-top: 10px;
+	width: 93%;
+	font-size: 14px;
+	padding-left: 20px;
+	padding-top: 4px;
+	padding-bottom: 5px;
+	color: white; /* White text color */
+	background-color: #3674ba;
+}
+
+.input{
+	margin-top: 10px;
+	height: 30px;
+	background: grey;
+	color: white;
+	padding-left: 15px;
+	font-weight: 500;
+	font-size: 14px;
+	width: 100%;
+	border: none;
+}
+
+.message{
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+	margin-top: 20px;
+	color: white;	
+	height: 100px;
+	background: grey;
+	width: 100%;
+}
+
+
+
+
+
+.footer{
+	padding: 10px;
+	color: black;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+/* xs - устройства (до 576px) */
+/* CSS для ширины, которая меньше 575px (включительно) */
+ 
+@media (min-width: 320px) {
+  /* CSS для: 576px <= ширины <= 767px */
+	.iphone_photo{
+		display: none;
+	}
+	.ab-i{
+	margin-top: 80px;
+}
+.about{
+		background-color: #d1d1d1;
+		height: 1300px;
+		margin-top: 40px;
+}
+
+
+/* sm-устройства (больше или равно 576px) */
+@media (min-width: 576px) {
+  /* CSS для: 576px <= ширины <= 767px */
+	.iphone_photo{
+		display: none;
+		width: 100px;
+	}
+	.ab-i{
+	margin-top: 50px;
+}
+.about{
+		background-color: #d1d1d1;
+		height: 1150px;
+		margin-top: 40px;
+}
+ 
+/* md-устройства (больше или равно 768px) */
+@media (min-width: 768px) {
+
+	.iphone_photo{
+		padding-top: 32px;
+		display: block;
+		width: 300px;
+	}
+
+	.about{
+		background-color: #d1d1d1;
+		height: 1100px;
+		margin-top: 40px;
+}
+.ab-i{
+	margin-top: 30px;
+}
+
+  /* CSS для: 768px <= ширины <= 991px */
+}
+ 
+/* lg-устройства (больше или равно 992px) */
+@media (min-width: 992px) {
+	.about{
+	background-color: #d1d1d1;
+	height: 600px;
+	margin-top: 40px;
+}
+.ab-i{
+	margin-top: 00px;
+}
+
+  /* CSS для: 992px <= ширины <= 1119px */
+}
+ 
+/* xl-устройства (больше или равно 1200px) */
+@media (min-width: 1200px) {
+  /* CSS для: ширины >= 1200px */
+  .ab-i{
+	margin-top: 0px;
+}
+
+}
